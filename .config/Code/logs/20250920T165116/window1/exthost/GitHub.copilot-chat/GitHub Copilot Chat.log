@@ -1,0 +1,55 @@
+2025-09-20 16:51:32.186 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-09-20 16:51:32.186 [info] Using the Electron fetcher.
+2025-09-20 16:51:34.102 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-09-20 16:51:34.102 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-09-20 16:51:34.102 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-09-20 16:51:44.292 [error] Error getting a session: Canceled: Canceled
+2025-09-20 16:51:44.292 [error] Canceled: Canceled
+    at fl (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117058
+    at Array.forEach (<anonymous>)
+    at j4.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116998)
+    at aJ.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10194)
+    at RP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949): Failed to get copilot token
+2025-09-20 16:51:44.292 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2025-09-20 16:51:44.292 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-09-20 16:51:44.292 [error] Canceled: Canceled
+    at fl (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117058
+    at Array.forEach (<anonymous>)
+    at j4.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116998)
+    at aJ.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10194)
+    at RP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-09-20 16:51:44.293 [info] activationBlocker from 'languageModelAccess' took for 9726ms
+2025-09-20 16:51:44.295 [info] copilot token chat_enabled: undefined, sku: 
+2025-09-20 16:51:44.295 [info] activationBlocker from 'conversationFeature' took for 9748ms
+2025-09-20 16:51:44.299 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2025-09-20 16:51:44.299 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-09-20 16:51:44.299 [error] Canceled: Canceled
+    at new CR (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at bZ.getAccounts (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11469)
+    at Object.getAccounts (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:102516)
+    at qQt (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:13822)
+    at lAe (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:14352)
+    at n (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:2218:6784)
+    at IE.getOrCreate (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:609:15632)
+    at YG.getAnyGitHubSession (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:2218:6890)
+    at YG.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:25211)
+    at A9._inspectContext (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:20031)
+    at A9._onAuthenticationChange (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:21770)
+    at a3.value (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:18198)
+    at Vt._deliver (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:448:2934)
+    at Vt._deliverQueue (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:448:3023)
+    at Vt.fire (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:448:3357)
+    at YG._handleAuthChangeEvent (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:26887)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)

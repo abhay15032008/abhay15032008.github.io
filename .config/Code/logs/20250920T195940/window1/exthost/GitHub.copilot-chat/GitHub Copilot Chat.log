@@ -1,0 +1,134 @@
+2025-09-20 20:00:02.347 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-09-20 20:00:02.347 [info] Using the Electron fetcher.
+2025-09-20 20:00:02.348 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-09-20 20:00:02.348 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-09-20 20:00:02.348 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-09-20 20:00:18.892 [warning] GitHub login failed
+2025-09-20 20:00:18.927 [info] GithubAvailableEmbeddingTypesManager: Could not find any available embedding types. Error: noSession
+2025-09-20 20:00:18.927 [info] GithubAvailableEmbeddingTypesManager: Could not find any available embedding types. Error: noSession
+2025-09-20 20:00:18.931 [error] Error: GitHubLoginFailed
+    at y9._authShowWarnings (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:16822)
+    at y9.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:25250)
+    at tT.waitForChatEnabled (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:27691)
+    at tT.run (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:27575)
+    at P3.askToUpgradeAuthPermissions (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:27233): Failed to get copilot token
+2025-09-20 20:00:18.931 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-09-20 20:00:18.931 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-09-20 20:00:18.931 [error] Error: GitHubLoginFailed
+    at y9._authShowWarnings (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:16822)
+    at y9.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:25250)
+    at V4._getAuthSession (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:618:4397)
+    at n (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:618:3843)
+    at V4._registerEmbeddings (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:618:4359)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at p1.waitForActivationBlockers (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:462:1233)
+    at /home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:462:1992
+    at rut (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:462:1860)
+    at _b.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+    at _b.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+    at _b.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2025-09-20 20:00:18.934 [info] activationBlocker from 'languageModelAccess' took for 6057ms
+2025-09-20 20:00:19.399 [warning] GitHub login failed
+2025-09-20 20:00:19.408 [info] copilot token chat_enabled: undefined, sku: 
+2025-09-20 20:00:19.408 [info] activationBlocker from 'conversationFeature' took for 6567ms
+2025-09-20 20:00:19.521 [warning] GitHub login failed
+2025-09-20 20:00:19.528 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-09-20 20:00:19.528 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-09-20 20:00:19.528 [error] Error: GitHubLoginFailed
+    at y9._authShowWarnings (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:16822)
+    at y9.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:25250)
+    at V4._getAuthSession (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:618:4397)
+    at n (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:618:3843)
+2025-09-20 20:00:19.528 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-09-20 20:00:19.528 [error] Error: GitHubLoginFailed
+    at y9._authShowWarnings (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:16822)
+    at y9.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:485:25250)
+    at V4._getAuthSession (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:618:4397)
+    at V4._provideLanguageModelChatInfo (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:618:1257)
+    at gy.$provideLanguageModelChatInfo (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:27963)
+2025-09-20 20:23:34.749 [info] Logged in as abhay15032008
+2025-09-20 20:23:35.356 [info] FetcherService: electron-fetch succeeded
+2025-09-20 20:23:35.489 [info] FetcherService: electron-fetch succeeded
+2025-09-20 20:23:35.495 [info] Got Copilot token for abhay15032008
+2025-09-20 20:23:36.574 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-09-20 20:23:36.575 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 20:23:36.751 [info] Registering default platform agent...
+2025-09-20 20:23:37.101 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-09-20 22:16:53.001 [info] Logged in as abhay15032008
+2025-09-20 22:16:53.600 [info] FetcherService: electron-fetch succeeded
+2025-09-20 22:16:53.621 [info] FetcherService: electron-fetch succeeded
+2025-09-20 22:16:53.624 [info] Got Copilot token for abhay15032008
+2025-09-20 22:16:53.728 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-09-20 22:16:54.851 [info] Fetched model metadata in 1184ms 037ef810-64ee-472b-8ab1-ca5d659d25bf
+2025-09-20 22:16:55.120 [info] Latest entry: ccreq:latest.copilotmd
+2025-09-20 22:16:55.127 [info] ccreq:be763576.copilotmd | markdown
+2025-09-20 22:16:59.975 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:16:59.975 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:17:02.856 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:17:02.857 [info] request done: requestId: [7a3433a9-933d-48ed-a286-15f6a91e7372] model deployment ID: []
+2025-09-20 22:17:02.881 [info] ccreq:ba503aa7.copilotmd | success | gpt-4.1 | 2505ms | [panel/editAgent]
+2025-09-20 22:17:04.425 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:17:04.426 [info] request done: requestId: [4da0d600-9124-473d-a401-a160f44c8aba] model deployment ID: []
+2025-09-20 22:17:04.448 [info] ccreq:cb6e365c.copilotmd | success | gpt-4o-mini | 1024ms | [title]
+2025-09-20 22:17:55.815 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:17:55.815 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:17:59.663 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:17:59.668 [info] request done: requestId: [5105a747-46ec-40e5-9715-e0642de129bc] model deployment ID: []
+2025-09-20 22:17:59.674 [info] ccreq:2fd50370.copilotmd | success | gpt-4.1 | 2284ms | [panel/editAgent]
+2025-09-20 22:19:45.065 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:19:45.066 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:19:51.684 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:19:51.684 [info] request done: requestId: [33c551f0-3ac0-4eb7-a384-b4900d7152e4] model deployment ID: []
+2025-09-20 22:19:51.694 [info] ccreq:63636a22.copilotmd | success | gpt-4.1 | 5080ms | [panel/editAgent]
+2025-09-20 22:20:58.513 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:20:58.513 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:21:03.030 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:21:03.030 [info] request done: requestId: [1c12d953-5c61-4942-9111-7d57cc50f066] model deployment ID: []
+2025-09-20 22:21:03.059 [info] ccreq:7ed09ccf.copilotmd | success | gpt-4.1 | 2051ms | [panel/editAgent]
+2025-09-20 22:22:27.015 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:22:27.015 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:22:31.229 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:22:31.229 [info] request done: requestId: [f4b71677-3075-4e73-b1c0-6787f6267f4d] model deployment ID: []
+2025-09-20 22:22:31.232 [info] ccreq:2b649607.copilotmd | success | gpt-4.1 | 2045ms | [panel/editAgent]
+2025-09-20 22:24:11.001 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:24:11.001 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:24:15.125 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:24:15.125 [info] request done: requestId: [41e34877-2ea7-4efb-ae9d-478f6cbef802] model deployment ID: []
+2025-09-20 22:24:15.141 [info] ccreq:55e2aa11.copilotmd | success | gpt-4.1 | 2561ms | [panel/editAgent]
+2025-09-20 22:24:44.773 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:24:44.773 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:24:48.585 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:24:48.585 [info] request done: requestId: [c96d6607-ebda-434e-b17a-65a8a40b8f33] model deployment ID: []
+2025-09-20 22:24:48.596 [info] ccreq:8308e14f.copilotmd | success | gpt-4.1 | 2420ms | [panel/editAgent]
+2025-09-20 22:26:39.758 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:26:39.758 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:26:44.832 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:26:44.832 [info] request done: requestId: [cde7fb84-a694-445a-8170-e20ba5d841bb] model deployment ID: []
+2025-09-20 22:26:44.861 [info] ccreq:a4d434d7.copilotmd | success | gpt-4.1 | 3661ms | [panel/editAgent]
+2025-09-20 22:29:14.763 [info] Fetched model metadata in 1419ms 7d05e728-edf3-4296-893d-b04615beb8d5
+2025-09-20 22:29:15.273 [info] ccreq:040cd45c.copilotmd | markdown
+2025-09-20 22:29:15.323 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:29:15.323 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:29:19.593 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:29:19.596 [info] request done: requestId: [5c64e743-5990-4c6a-8797-7b41b5ea8b8e] model deployment ID: []
+2025-09-20 22:29:19.639 [info] ccreq:edc74d05.copilotmd | success | gpt-4.1 | 2922ms | [panel/editAgent]
+2025-09-20 22:29:51.603 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:29:51.603 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:29:55.497 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:29:55.497 [info] request done: requestId: [7cfb4e14-98f9-4ee2-b2fc-5909705aaf09] model deployment ID: []
+2025-09-20 22:29:55.502 [info] ccreq:c6135e45.copilotmd | success | gpt-4.1 | 2287ms | [panel/editAgent]
+2025-09-20 22:30:28.087 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:30:28.087 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:30:31.772 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:30:31.772 [info] request done: requestId: [e3212054-3bab-442b-b785-63e9d847361b] model deployment ID: []
+2025-09-20 22:30:31.775 [info] ccreq:1e227121.copilotmd | success | gpt-4.1 | 2365ms | [panel/editAgent]
+2025-09-20 22:31:45.456 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 22:31:45.463 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-09-20 22:31:49.971 [info] message 0 returned. finish reason: [stop]
+2025-09-20 22:31:49.971 [info] request done: requestId: [e3efdccb-cb53-4401-a82b-2576666dd3af] model deployment ID: []
+2025-09-20 22:31:49.977 [info] ccreq:4bcb5763.copilotmd | success | gpt-4.1 | 2677ms | [panel/editAgent]

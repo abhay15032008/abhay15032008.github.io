@@ -1,0 +1,110 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "7909e7291fdb054d1a3aee82149aba339056e74ebd5468da3ed37630cb554f85",
+    "telemetry.devDeviceId": "e771d9eb-78cb-4e90-8297-82ea9d91bc53",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/as4454508/HTML-CSE11"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1758443105398"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/as4454508/HTML-CSE11": "__default__profile__",
+            "file:///home/as4454508/CSE11": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1758443105398": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/as4454508/HTML-CSE11",
+            "backupPath": "/home/as4454508/.config/Code/Backups/7ab88d08ea518968235442e71d175405",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 24,
+                "width": 1536,
+                "height": 816
+            }
+        },
+        "openedWindows": [
+            {
+                "folder": "file:///home/as4454508/HTML-CSE11",
+                "backupPath": "/home/as4454508/.config/Code/Backups/7ab88d08ea518968235442e71d175405",
+                "uiState": {
+                    "mode": 0,
+                    "x": 0,
+                    "y": 24,
+                    "width": 1536,
+                    "height": 816
+                }
+            },
+            {
+                "backupPath": "/home/as4454508/.config/Code/Backups/1758443105398",
+                "uiState": {
+                    "mode": 1,
+                    "x": 168,
+                    "y": 32,
+                    "width": 1200,
+                    "height": 800
+                }
+            }
+        ]
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "d45c6fab9477aea0a03b8c98ce2da85a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "2f0c70baf98828494aab94ce42c90a2f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+2025-09-21 13:57:13.647 [info] [main] Log level: Info
+2025-09-21 13:57:13.647 [info] [main] Validating found git in: "git"
+2025-09-21 13:57:13.647 [info] [main] Using git "2.39.5" from "git"
+2025-09-21 13:57:13.647 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-21 13:57:13.647 [info] > git rev-parse --show-toplevel [4843ms]
+2025-09-21 13:57:13.670 [info] > git rev-parse --show-toplevel [53ms]
+2025-09-21 13:57:13.705 [info] > git rev-parse --show-toplevel [13ms]
+2025-09-21 13:57:13.777 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [46ms]
+2025-09-21 13:57:13.873 [info] [Model][openRepository] Opened repository (path): /home/as4454508/HTML-CSE11/HTML-CSE11
+2025-09-21 13:57:13.873 [info] [Model][openRepository] Opened repository (real path): /home/as4454508/HTML-CSE11/HTML-CSE11
+2025-09-21 13:57:13.873 [info] [Model][openRepository] Opened repository (kind): submodule
+2025-09-21 13:57:14.020 [info] > git config --get commit.template [47ms]
+2025-09-21 13:57:14.030 [info] > git rev-parse --show-toplevel [19ms]
+2025-09-21 13:57:14.114 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-09-21 13:57:14.228 [info] > git rev-parse --show-toplevel [42ms]
+2025-09-21 13:57:14.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [146ms]
+2025-09-21 13:57:14.407 [info] > git status -z -uall [94ms]
+2025-09-21 13:57:14.411 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-09-21 13:57:14.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2025-09-21 13:57:14.579 [info] > git config --get --local branch.main.vscode-merge-base [7ms]
+2025-09-21 13:57:14.599 [info] > git config --get commit.template [60ms]
+2025-09-21 13:57:14.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-09-21 13:57:14.679 [info] > git merge-base refs/heads/main refs/remotes/origin/main [52ms]
+2025-09-21 13:57:14.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [109ms]
+2025-09-21 13:57:16.049 [info] > git diff --name-status -z --diff-filter=ADMR 83c16a49ef216d457f6fc50f704b5b905aafdb88...refs/remotes/origin/main [1278ms]
+2025-09-21 13:57:16.855 [info] > git status -z -uall [334ms]
+2025-09-21 13:57:16.861 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [259ms]
+2025-09-21 13:57:17.386 [info] > git check-ignore -v -z --stdin [371ms]
+2025-09-21 13:58:02.435 [info] > git rev-parse --show-toplevel [294ms]
+2025-09-21 13:58:02.945 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [283ms]
+2025-09-21 13:58:03.008 [info] [Model][openRepository] Opened repository (path): /home/as4454508
+2025-09-21 13:58:03.010 [info] [Model][openRepository] Opened repository (real path): /home/as4454508
+2025-09-21 13:58:03.010 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-21 13:58:03.804 [info] > git config --get commit.template [706ms]
+2025-09-21 13:58:03.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [466ms]
+2025-09-21 13:58:04.452 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [108ms]
+2025-09-21 13:58:05.735 [info] > git status -z -uall [1702ms]
+2025-09-21 13:58:18.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11087ms]
+2025-09-21 13:58:19.494 [info] > git config --get --local branch.master.vscode-merge-base [493ms]
+2025-09-21 13:58:19.494 [warning] [Git][config] git config failed: Failed to execute git
+2025-09-21 13:58:20.109 [info] > git config --get commit.template [2044ms]
+2025-09-21 13:58:23.179 [info] > git check-ignore -v -z --stdin [591ms]
+2025-09-21 13:58:23.184 [info] > git check-ignore -v -z --stdin [531ms]
+2025-09-21 13:58:23.190 [info] > git reflog master --grep-reflog=branch: Created from *. [3096ms]
+2025-09-21 13:58:23.708 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [462ms]
+2025-09-21 13:58:23.708 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-09-21 13:58:23.708 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-09-21 13:58:23.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [53ms]
+2025-09-21 13:58:23.824 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [34ms]
+2025-09-21 13:58:25.035 [info] > git show --textconv :HTML-CSE11/Web -Assignment/index.html [533ms]
+2025-09-21 13:58:25.036 [info] > git ls-files --stage -- HTML-CSE11/Web -Assignment/index.html [409ms]
+2025-09-21 13:58:25.170 [info] > git cat-file -s ae02e5988fdfbb0827d4494ec7a48afb749ec1da [44ms]
+2025-09-21 13:58:25.357 [info] > git status -z -uall [1613ms]
+2025-09-21 13:58:36.997 [info] > git config --get commit.template [257ms]
+2025-09-21 13:58:37.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [41ms]
+2025-09-21 13:58:37.207 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-09-21 13:58:38.584 [info] > git status -z -uall [1508ms]
+2025-09-21 13:58:53.179 [info] > git blame --root --incremental 2c700da358d23b85ce98b7f3ae44f7c734c9164f -- HTML-CSE11/Web -Assignment/index.html [541ms]
+2025-09-21 13:58:53.300 [info] > git config --get commit.template [303ms]
+2025-09-21 13:58:53.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2025-09-21 13:58:53.793 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [78ms]
+2025-09-21 13:58:54.000 [info] > git status -z -uall [434ms]

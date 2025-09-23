@@ -1,0 +1,90 @@
+2025-09-20 14:58:41.478 [info] Started local extension host with pid 11510.
+2025-09-20 14:58:56.113 [info] Extension host (LocalProcess pid: 11510) is unresponsive.
+2025-09-20 14:58:59.258 [error] [Extension Host] (node:11510) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-09-20 14:58:59.599 [info] Extension host (LocalProcess pid: 11510) is responsive.
+2025-09-20 14:59:02.111 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+	at t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+	at Module._load (node:internal/modules/cjs/loader:1182:37)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+	at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+	at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+	at Module.require (node:internal/modules/cjs/loader:1452:12)
+	at Module.require (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:81:36096)
+	at require (node:internal/modules/helpers:135:16)
+	at 7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+	at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+	at Module._compile (node:internal/modules/cjs/loader:1696:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+	at Module.load (node:internal/modules/cjs/loader:1430:32)
+	at Module._load (node:internal/modules/cjs/loader:1253:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+	at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+	at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+	at Module.require (node:internal/modules/cjs/loader:1452:12)
+	at Module.require (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.1/dist/extension.js:81:36096)
+	at require (node:internal/modules/helpers:135:16)
+	at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-09-20 14:59:05.205 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 105ms.
+2025-09-20 14:59:05.518 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-09-20 14:59:06.901 [info] Extension host (LocalProcess pid: 11510) is unresponsive.
+2025-09-20 14:59:10.677 [info] [perf] Render performance baseline is 162ms
+2025-09-20 14:59:13.785 [info] Extension host (LocalProcess pid: 11510) is responsive.
+2025-09-20 14:59:18.172 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-09-20 14:59:22.352 [info] Extension host (LocalProcess pid: 11510) is unresponsive.
+2025-09-20 14:59:22.398 [info] Extension host (LocalProcess pid: 11510) is responsive.
+2025-09-20 14:59:22.408 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-09-20 14:59:27.002 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-09-20 14:59:29.270 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-20 14:59:31.575 [error] CodeExpectedError: No default agent registered
+    at Exe.activateDefaultAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2109:14533)
+2025-09-20 15:10:13.285 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:10:13.286 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-09-20 15:10:14.357 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 15:22:45.563 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:22:46.131 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 15:23:51.390 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:23:51.572 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 15:23:54.675 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:23:54.855 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 15:36:35.877 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:36:36.956 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 15:36:37.173 [error] [Extension Host] (node:11510) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2025-09-20 15:36:38.163 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:36:38.800 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 15:36:49.756 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:36:50.160 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 15:37:38.323 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:37:38.881 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 15:38:23.438 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 15:38:24.097 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 16:49:43.103 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-20 16:49:43.701 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-20 16:50:09.060 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.chatSessionStore, join.chatEditingSession

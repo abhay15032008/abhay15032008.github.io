@@ -1,0 +1,38 @@
+2025-09-20 16:51:24.394 [info] Extension host with pid 17282 started
+2025-09-20 16:51:24.394 [info] Skipping acquiring lock for /home/as4454508/.config/Code/User/workspaceStorage/d45c6fab9477aea0a03b8c98ce2da85a.
+2025-09-20 16:51:25.712 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-20 16:51:26.000 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-20 16:51:26.097 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-09-20 16:51:31.449 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-09-20 16:51:32.034 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-20 16:51:32.054 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2025-09-20 16:51:32.268 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-09-20 16:51:32.728 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-20 16:51:33.164 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-20 16:51:34.821 [info] Eager extensions activated
+2025-09-20 16:51:34.928 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-09-20 16:51:43.697 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 16:51:43.706 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 16:51:43.760 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 16:51:44.019 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 16:51:44.210 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-20 16:51:44.256 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at fl (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117058
+    at Array.forEach (<anonymous>)
+    at j4.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116998)
+    at aJ.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10194)
+    at RP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) 
+2025-09-20 16:51:44.760 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new CR (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Fb.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:74040)
+    at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:21837)
+    at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:707:13 
