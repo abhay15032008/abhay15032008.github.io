@@ -1,8 +1,0 @@
-2025-09-29 12:04:34.736 [info] update#setState idle
-2025-09-29 12:05:04.424 [info] update#setState checking for updates
-2025-09-29 12:05:04.712 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/f220831ea2d946c0dcb0f3eaa480eb435a2c1260?bg=true - error undefined net::ERR_CERT_AUTHORITY_INVALID
-2025-09-29 12:05:04.715 [error] Error: net::ERR_CERT_AUTHORITY_INVALID
-    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123921)
-    at SimpleURLLoaderWrapper.emit (node:events:518:28)
-2025-09-29 12:05:04.717 [info] update#setState idle
-2025-09-29 12:06:40.390 [info] Extension host with pid 5488 exited with code: 0, signal: unknown.

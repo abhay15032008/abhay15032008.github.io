@@ -1,0 +1,45 @@
+2025-10-02 12:31:22.647 [info] [main] Log level: Info
+2025-10-02 12:31:22.647 [info] [main] Validating found git in: "git"
+2025-10-02 12:31:22.647 [info] [main] Using git "2.39.5" from "git"
+2025-10-02 12:31:22.647 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-02 12:31:22.647 [info] > git rev-parse --show-toplevel [12ms]
+2025-10-02 12:31:22.647 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [93ms]
+2025-10-02 12:31:22.647 [info] [Model][openRepository] Opened repository (path): /home/as4454508/Abhay
+2025-10-02 12:31:22.647 [info] [Model][openRepository] Opened repository (real path): /home/as4454508/Abhay
+2025-10-02 12:31:22.647 [info] [Model][openRepository] Opened repository (kind): submodule
+2025-10-02 12:31:22.647 [info] > git rev-parse --show-toplevel [738ms]
+2025-10-02 12:31:22.647 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-02 12:31:22.647 [info] > git config --get commit.template [762ms]
+2025-10-02 12:31:22.647 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-02 12:31:23.329 [info] > git check-ignore -v -z --stdin [587ms]
+2025-10-02 12:31:23.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [695ms]
+2025-10-02 12:31:23.898 [info] > git status -z -uall [532ms]
+2025-10-02 12:31:23.899 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [500ms]
+2025-10-02 12:31:24.158 [info] > git show --textconv :CSE_11/Expermint-abhay15032008 [105ms]
+2025-10-02 12:31:24.158 [info] > git ls-files --stage -- CSE_11/Expermint-abhay15032008 [66ms]
+2025-10-02 12:31:24.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [242ms]
+2025-10-02 12:31:24.799 [info] > git config --get --local branch.master.vscode-merge-base [568ms]
+2025-10-02 12:31:24.799 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-02 12:31:24.818 [info] > git hash-object -t tree /dev/null [617ms]
+2025-10-02 12:31:24.818 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/as4454508/Abhay/CSE_11/Expermint-abhay15032008.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2FAbhay%2FCSE_11%2FExpermint-abhay15032008%22%2C%22ref%22%3A%22%22%7D
+2025-10-02 12:31:24.833 [info] > git hash-object -t tree /dev/null [653ms]
+2025-10-02 12:31:24.833 [warning] [GitFileSystemProvider][stat] File not found - git:/home/as4454508/Abhay/CSE_11/Expermint-abhay15032008.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2FAbhay%2FCSE_11%2FExpermint-abhay15032008%22%2C%22ref%22%3A%22%22%7D
+2025-10-02 12:31:24.834 [info] > git config --get commit.template [691ms]
+2025-10-02 12:31:24.854 [info] > git reflog master --grep-reflog=branch: Created from *. [36ms]
+2025-10-02 12:31:26.522 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-02 12:31:26.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2025-10-02 12:31:26.616 [info] > git status -z -uall [50ms]
+2025-10-02 12:31:26.616 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [27ms]
+2025-10-02 12:37:24.646 [info] > git check-ignore -v -z --stdin [384ms]
+2025-10-02 12:37:24.666 [info] > git config --get commit.template [25ms]
+2025-10-02 12:37:24.701 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-02 12:37:24.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2025-10-02 12:37:25.174 [info] > git status -z -uall [364ms]
+2025-10-02 12:37:25.174 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [271ms]
+2025-10-02 12:52:47.793 [info] > git clone https://github.com/ABES-Engineering-college1/experiment-2-abhay15032008.git /home/as4454508/experiment/experiment-2-abhay15032008 --progress --recursive [4046ms]
+2025-10-02 12:52:47.793 [info] Cloning into '/home/as4454508/experiment/experiment-2-abhay15032008'...
+remote: Enumerating objects: 3, done.        
+remote: Counting objects:  33% (1/3)        remote: Counting objects:  66% (2/3)        remote: Counting objects: 100% (3/3)        remote: Counting objects: 100% (3/3), done.        
+remote: Compressing objects:  50% (1/2)        remote: Compressing objects: 100% (2/2)        remote: Compressing objects: 100% (2/2), done.        
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)        
+Receiving objects:  33% (1/3)Receiving objects:  66% (2/3)Receiving objects: 100% (3/3)Receiving objects: 100% (3/3), done.

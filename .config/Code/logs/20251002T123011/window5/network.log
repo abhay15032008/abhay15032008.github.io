@@ -1,0 +1,12 @@
+2025-10-02 13:36:28.616 [error] #9: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-02 13:41:54.751 [error] #10: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-02 13:47:20.981 [error] #11: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-02 13:52:47.122 [error] #12: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-02 13:54:38.579 [error] #13: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/GitHub/copilot/latest - error GET Fetch timeout: 10000ms
+2025-10-02 13:54:48.577 [error] #14: https://www.vscode-unpkg.net/_gallery/GitHub/copilot/latest - error GET Fetch timeout: 10000ms
+2025-10-02 13:54:54.697 [error] #15: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2025-10-02 13:58:13.303 [error] #16: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-02 14:03:39.442 [error] #17: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-02 14:09:05.594 [error] #18: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-02 14:14:31.748 [error] #19: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-02 14:19:57.865 [error] #20: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch

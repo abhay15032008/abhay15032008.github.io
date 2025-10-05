@@ -1,0 +1,6 @@
+2025-10-01 19:39:25.755 [info] Log level: Info
+2025-10-01 19:39:25.755 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-10-01 19:40:03.760 [info] Log level: Info
+2025-10-01 19:41:19.642 [info] Log level: Info
+2025-10-01 19:41:25.552 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-10-01 19:41:26.052 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

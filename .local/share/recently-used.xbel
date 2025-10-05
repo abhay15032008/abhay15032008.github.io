@@ -53,12 +53,52 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/as4454508/Abhay/web%20design/HTML-CSE11" added="2025-09-24T10:56:42.500396Z" modified="2025-09-24T10:56:42.500419Z" visited="2025-09-24T10:56:42.500399Z">
+  <bookmark href="file:///home/as4454508/Abhay/web%20design/HTML-CSE11" added="2025-09-24T10:56:42.500396Z" modified="2025-10-01T14:10:27.784003Z" visited="2025-09-24T10:56:42.500399Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-09-24T10:56:42.500404Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-10-01T14:10:27.783999Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/as4454508/Abhay/CSE_11" added="2025-09-30T06:50:29.454662Z" modified="2025-10-02T07:00:45.533892Z" visited="2025-09-30T06:50:29.454664Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-10-02T07:00:45.533794Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/as4454508/Abhay/web%20design" added="2025-10-01T14:10:52.525127Z" modified="2025-10-01T14:10:52.525133Z" visited="2025-10-01T14:10:52.525128Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-10-01T14:10:52.525130Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/as4454508/experiment" added="2025-10-02T07:22:43.465259Z" modified="2025-10-05T10:29:24.442007Z" visited="2025-10-02T07:22:43.465260Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-10-05T10:29:24.441896Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/as4454508/experiment1" added="2025-10-02T07:26:56.320203Z" modified="2025-10-02T07:28:26.033363Z" visited="2025-10-02T07:26:56.320215Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-10-02T07:28:26.033353Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

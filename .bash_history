@@ -206,3 +206,44 @@ git save
 git add .
 git commit -m"semantic page"
 git push
+git version 
+git add .
+git add .
+git commit -m "list"
+git push
+git add .
+cd HTML-CSE11
+git add .
+git commit -m "list"
+git push
+cd [200~https://github.com/ABES-Engineering-college1/experiment-2-abhay15032008.git~
+cdnCSE_11
+cd CSE_11
+cd abhay15032008
+git status
+git add .
+git commit -m "experiment 1"
+git push
+git status
+git push
+git status
+git add .
+git commit -m "experiment 2"
+git push
+git status
+git push
+git add .
+git commit -m "experiment 2"
+git push
+cd [200~https://github.com/ABES-Engineering-college1/experiment-2-abhay15032008.git~
+https://github.com/ABES-Engineering-college1/experiment-2-abhay15032008.git
+git add .
+git status
+git commit -m "experiment2"
+git push 
+git add .
+git status
+git push
+git status
+git push -u origin main
+git push

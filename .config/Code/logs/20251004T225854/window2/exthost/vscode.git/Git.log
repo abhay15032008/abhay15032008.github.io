@@ -1,0 +1,112 @@
+2025-10-04 23:00:46.232 [info] [main] Log level: Info
+2025-10-04 23:00:46.315 [info] [main] Validating found git in: "git"
+2025-10-04 23:00:46.315 [info] [main] Using git "2.39.5" from "git"
+2025-10-04 23:00:46.315 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-04 23:00:46.315 [info] > git rev-parse --show-toplevel [1075ms]
+2025-10-04 23:00:46.315 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2822ms]
+2025-10-04 23:00:46.315 [info] [Model][openRepository] Opened repository (path): /home/as4454508
+2025-10-04 23:00:46.315 [info] [Model][openRepository] Opened repository (real path): /home/as4454508
+2025-10-04 23:00:46.315 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-04 23:00:46.315 [info] > git rev-parse --show-toplevel [1381ms]
+2025-10-04 23:00:46.315 [info] > git config --get commit.template [1470ms]
+2025-10-04 23:00:47.509 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [779ms]
+2025-10-04 23:00:47.627 [info] [Model][openRepository] Opened repository (path): /home/as4454508/experiment/experiment-2-abhay15032008
+2025-10-04 23:00:47.627 [info] [Model][openRepository] Opened repository (real path): /home/as4454508/experiment/experiment-2-abhay15032008
+2025-10-04 23:00:47.627 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-04 23:00:47.685 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-04 23:00:49.404 [info] > git check-ignore -v -z --stdin [563ms]
+2025-10-04 23:00:49.410 [info] > git show --textconv :index.html [292ms]
+2025-10-04 23:00:49.414 [info] > git ls-files --stage -- index.html [142ms]
+2025-10-04 23:00:49.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2412ms]
+2025-10-04 23:00:49.782 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [237ms]
+2025-10-04 23:00:49.785 [info] > git hash-object -t tree /dev/null [315ms]
+2025-10-04 23:00:49.785 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/as4454508/experiment/experiment-2-abhay15032008/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2Fexperiment%2Fexperiment-2-abhay15032008%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-10-04 23:00:49.792 [info] > git hash-object -t tree /dev/null [353ms]
+2025-10-04 23:00:49.792 [warning] [GitFileSystemProvider][stat] File not found - git:/home/as4454508/experiment/experiment-2-abhay15032008/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2Fexperiment%2Fexperiment-2-abhay15032008%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-10-04 23:00:49.795 [info] > git config --get commit.template [400ms]
+2025-10-04 23:00:49.967 [info] > git check-ignore -v -z --stdin [71ms]
+2025-10-04 23:00:49.969 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [53ms]
+2025-10-04 23:00:50.008 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-04 23:00:50.048 [info] > git rev-parse refs/remotes/origin/main [40ms]
+2025-10-04 23:00:50.567 [info] > git status -z -uall [441ms]
+2025-10-04 23:00:50.568 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [293ms]
+2025-10-04 23:00:50.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [202ms]
+2025-10-04 23:00:51.118 [info] > git config --get --local branch.main.vscode-merge-base [72ms]
+2025-10-04 23:00:51.149 [info] > git config --get commit.template [228ms]
+2025-10-04 23:00:51.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [62ms]
+2025-10-04 23:00:51.935 [info] > git merge-base refs/heads/main refs/remotes/origin/main [665ms]
+2025-10-04 23:00:52.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [87ms]
+2025-10-04 23:00:52.036 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-04 23:00:52.037 [info] > git diff --name-status -z --diff-filter=ADMR 486577dbd91c1ce3b35608a3c8a0f06bbb7a6335...refs/remotes/origin/main [73ms]
+2025-10-04 23:00:52.049 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2025-10-04 23:00:52.095 [info] > git blame --root --incremental 486577dbd91c1ce3b35608a3c8a0f06bbb7a6335 -- index.html [88ms]
+2025-10-04 23:00:52.095 [info] fatal: no such path index.html in 486577dbd91c1ce3b35608a3c8a0f06bbb7a6335
+2025-10-04 23:00:52.108 [info] > git status -z -uall [37ms]
+2025-10-04 23:00:52.115 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-10-04 23:00:54.854 [info] > git status -z -uall [5352ms]
+2025-10-04 23:00:55.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [637ms]
+2025-10-04 23:00:55.859 [info] > git config --get --local branch.master.vscode-merge-base [123ms]
+2025-10-04 23:00:55.859 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-04 23:00:55.967 [info] > git config --get commit.template [279ms]
+2025-10-04 23:00:56.077 [info] > git reflog master --grep-reflog=branch: Created from *. [112ms]
+2025-10-04 23:00:56.123 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [10ms]
+2025-10-04 23:00:56.124 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-10-04 23:00:56.124 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-10-04 23:00:56.126 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [51ms]
+2025-10-04 23:00:56.208 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-10-04 23:00:57.427 [info] > git status -z -uall [1283ms]
+2025-10-04 23:01:00.100 [info] > git config --get commit.template [19ms]
+2025-10-04 23:01:00.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-10-04 23:01:00.170 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-10-04 23:01:01.237 [info] > git status -z -uall [1121ms]
+2025-10-04 23:01:06.395 [info] > git config --get commit.template [27ms]
+2025-10-04 23:01:06.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-10-04 23:01:06.451 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-10-04 23:01:07.422 [info] > git status -z -uall [1005ms]
+2025-10-04 23:01:12.878 [info] > git config --get commit.template [35ms]
+2025-10-04 23:01:12.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [46ms]
+2025-10-04 23:01:13.193 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [54ms]
+2025-10-04 23:01:13.932 [info] > git config --get commit.template [24ms]
+2025-10-04 23:01:13.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-10-04 23:01:13.997 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-04 23:01:14.009 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-10-04 23:01:14.125 [info] > git status -z -uall [57ms]
+2025-10-04 23:01:14.126 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-10-04 23:01:16.047 [info] > git status -z -uall [3090ms]
+2025-10-04 23:01:17.728 [info] > git check-ignore -v -z --stdin [1200ms]
+2025-10-04 23:01:41.030 [info] > git config --get commit.template [22ms]
+2025-10-04 23:01:41.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-04 23:01:41.304 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-10-04 23:01:42.540 [info] > git status -z -uall [1367ms]
+2025-10-04 23:01:47.635 [info] > git config --get commit.template [23ms]
+2025-10-04 23:01:47.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-10-04 23:01:47.699 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-04 23:01:48.664 [info] > git status -z -uall [1011ms]
+2025-10-04 23:01:53.756 [info] > git config --get commit.template [6ms]
+2025-10-04 23:01:53.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-10-04 23:01:53.893 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-10-04 23:01:55.325 [info] > git status -z -uall [1485ms]
+2025-10-04 23:02:00.411 [info] > git config --get commit.template [2ms]
+2025-10-04 23:02:00.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-10-04 23:02:00.521 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-10-04 23:02:01.643 [info] > git status -z -uall [1181ms]
+2025-10-04 23:02:06.729 [info] > git config --get commit.template [3ms]
+2025-10-04 23:02:06.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-10-04 23:02:06.921 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-10-04 23:02:09.953 [info] > git status -z -uall [3145ms]
+2025-10-04 23:27:22.180 [info] > git check-ignore -v -z --stdin [31ms]
+2025-10-04 23:41:15.036 [info] > git config --get commit.template [36ms]
+2025-10-04 23:41:15.050 [info] > git config --get commit.template [103ms]
+2025-10-04 23:41:15.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [62ms]
+2025-10-04 23:41:15.460 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [82ms]
+2025-10-04 23:41:15.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [315ms]
+2025-10-04 23:41:15.521 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-04 23:41:15.524 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2025-10-04 23:41:15.652 [info] > git status -z -uall [109ms]
+2025-10-04 23:41:15.652 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-10-04 23:41:15.706 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2025-10-04 23:41:15.733 [info] > git diff --name-status -z --diff-filter=ADMR 486577dbd91c1ce3b35608a3c8a0f06bbb7a6335...refs/remotes/origin/main [8ms]
+2025-10-04 23:41:16.249 [info] > git show --textconv :index.html [40ms]
+2025-10-04 23:41:16.262 [info] > git ls-files --stage -- index.html [15ms]
+2025-10-04 23:41:16.342 [info] > git cat-file -s 7e240914726792126dfcc5eb11a589d0b1b47fae [20ms]
+2025-10-04 23:41:17.116 [info] > git blame --root --incremental 7a415387453b21540b194adaa9c0eaa7db23d5ff -- index.html [3ms]

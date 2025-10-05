@@ -1,0 +1,75 @@
+2025-10-02 12:53:10.238 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-02 12:53:11.411 [info] Started local extension host with pid 1970.
+2025-10-02 12:53:21.619 [info] Extension host (LocalProcess pid: 1970) is unresponsive.
+2025-10-02 12:53:22.948 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-02 12:53:24.254 [error] [Extension Host] (node:1970) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-02 12:53:24.758 [info] Extension host (LocalProcess pid: 1970) is responsive.
+2025-10-02 12:53:25.124 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+	at t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+	at Module._load (node:internal/modules/cjs/loader:1182:37)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+	at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+	at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+	at Module.require (node:internal/modules/cjs/loader:1452:12)
+	at Module.require (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.3/dist/extension.js:81:36096)
+	at require (node:internal/modules/helpers:135:16)
+	at 7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+	at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+	at Module._compile (node:internal/modules/cjs/loader:1696:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+	at Module.load (node:internal/modules/cjs/loader:1430:32)
+	at Module._load (node:internal/modules/cjs/loader:1253:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+	at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+	at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+	at Module.require (node:internal/modules/cjs/loader:1452:12)
+	at Module.require (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.3/dist/extension.js:81:36096)
+	at require (node:internal/modules/helpers:135:16)
+	at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-02 12:53:27.537 [info] [perf] Render performance baseline is 131ms
+2025-10-02 12:53:30.490 [info] Extension host (LocalProcess pid: 1970) is unresponsive.
+2025-10-02 12:53:32.199 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-02 12:53:35.075 [info] Extension host (LocalProcess pid: 1970) is responsive.
+2025-10-02 12:53:35.080 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-02 12:53:36.288 [warning] UNRESPONSIVE extension host: 'github.copilot' took 87.49480781760532% of 2534.008ms, saved PROFILE here: 'file:///tmp/exthost-cc0787.cpuprofile'
+2025-10-02 12:53:36.457 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-02 12:53:41.661 [error] CodeExpectedError: No default agent registered
+    at Exe.activateDefaultAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2109:14533)
+2025-10-02 12:53:42.467 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-02 13:36:28.639 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-02 13:41:54.752 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-02 13:47:20.989 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-02 13:52:47.138 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-02 13:58:13.302 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-02 14:03:39.447 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-02 14:09:05.600 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-02 14:14:31.757 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-02 14:19:57.900 [warning] Failed to fetch chat participant registry Failed to fetch

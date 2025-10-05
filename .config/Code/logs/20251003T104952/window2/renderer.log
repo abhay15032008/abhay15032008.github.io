@@ -1,0 +1,84 @@
+2025-10-03 10:50:06.138 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 31ms.
+2025-10-03 10:50:06.313 [warning] Creation of workbench contribution 'workbench.contrib.notebook' took 22ms.
+2025-10-03 10:50:06.492 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 109ms.
+2025-10-03 10:50:06.511 [warning] Creation of workbench contribution 'workbench.contrib.dirtyFilesIndicator' took 27ms.
+2025-10-03 10:50:06.558 [warning] Creation of workbench contribution 'workbench.contrib.replacePreviewContentProvider' took 23ms.
+2025-10-03 10:50:06.559 [warning] Creation of workbench contribution 'workbench.contrib.complexCustomWorkingCopyEditorHandler' took 23ms.
+2025-10-03 10:50:06.588 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 28ms.
+2025-10-03 10:50:06.671 [warning] Creation of workbench contribution 'workbench.contribution.notebookOutputEditorContribution' took 25ms.
+2025-10-03 10:50:06.712 [warning] Creation of workbench contribution 'workbench.contrib.copilotTitleBarMenuRendering' took 22ms.
+2025-10-03 10:50:06.807 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 85ms.
+2025-10-03 10:50:06.845 [warning] Creation of workbench contribution 'workbench.contrib.chatStatusBarEntry' took 29ms.
+2025-10-03 10:50:06.870 [warning] Creation of workbench contribution 'mcpContextKeys' took 22ms.
+2025-10-03 10:50:06.917 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 21ms.
+2025-10-03 10:50:06.988 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 44ms.
+2025-10-03 10:50:07.082 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 78ms.
+2025-10-03 10:50:20.036 [info] Started local extension host with pid 612.
+2025-10-03 10:50:44.822 [info] Extension host (LocalProcess pid: 612) is unresponsive.
+2025-10-03 10:50:51.742 [error] [Extension Host] (node:612) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-03 10:50:52.100 [info] Extension host (LocalProcess pid: 612) is responsive.
+2025-10-03 10:50:56.322 [warning] Creation of workbench contribution 'mcpDiscovery' took 158ms.
+2025-10-03 10:50:56.989 [info] Extension host (LocalProcess pid: 612) is unresponsive.
+2025-10-03 10:50:58.744 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 114ms.
+2025-10-03 10:50:59.157 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-03 10:51:06.752 [info] [perf] Render performance baseline is 402ms
+2025-10-03 10:51:13.502 [info] Extension host (LocalProcess pid: 612) is responsive.
+2025-10-03 10:51:19.881 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.3/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.3/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-03 10:51:30.961 [info] Extension host (LocalProcess pid: 612) is unresponsive.
+2025-10-03 10:51:31.103 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-03 10:51:31.239 [info] Extension host (LocalProcess pid: 612) is responsive.
+2025-10-03 10:51:31.252 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-03 10:51:36.725 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-03 10:51:38.072 [warning] UNRESPONSIVE extension host: 'vscode.git' took 81.1178906079756% of 22.335ms, saved PROFILE here: 'file:///tmp/exthost-782c9d.cpuprofile'
+2025-10-03 10:51:39.787 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-03 10:51:43.020 [error] CodeExpectedError: No default agent registered
+    at Exe.activateDefaultAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2109:14533)

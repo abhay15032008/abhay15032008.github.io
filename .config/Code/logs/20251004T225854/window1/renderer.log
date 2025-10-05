@@ -1,0 +1,161 @@
+2025-10-04 22:59:07.807 [info] Started local extension host with pid 462.
+2025-10-04 22:59:20.890 [info] Extension host (LocalProcess pid: 462) is unresponsive.
+2025-10-04 22:59:25.307 [info] Auto updating outdated extensions. github.copilot-chat
+2025-10-04 22:59:28.463 [error] [Extension Host] (node:462) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-04 22:59:30.000 [info] Extension host (LocalProcess pid: 462) is responsive.
+2025-10-04 22:59:32.143 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 185ms.
+2025-10-04 22:59:32.908 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-04 22:59:39.628 [info] Extension host (LocalProcess pid: 462) is unresponsive.
+2025-10-04 22:59:39.948 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 165ms.
+2025-10-04 22:59:40.001 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 190ms.
+2025-10-04 22:59:44.706 [warning] Creation of workbench contribution 'workbench.contrib.testing.chatAgentTool' took 262ms.
+2025-10-04 22:59:47.143 [warning] Creation of workbench contribution 'vs.contrib.inlineCompletionLanguageStatusBarContribution' took 155ms.
+2025-10-04 22:59:47.636 [info] [perf] Render performance baseline is 188ms
+2025-10-04 23:00:01.592 [info] Extension host (LocalProcess pid: 462) is responsive.
+2025-10-04 23:00:05.755 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.3/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.3/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-04 23:00:14.475 [info] Extension host (LocalProcess pid: 462) is unresponsive.
+2025-10-04 23:00:21.166 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-04 23:00:21.282 [info] Extension host (LocalProcess pid: 462) is responsive.
+2025-10-04 23:00:21.282 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-04 23:00:22.061 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-04 23:00:28.708 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-04 23:00:29.313 [error] CodeExpectedError: No default agent registered
+    at Exe.activateDefaultAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2109:14533)
+2025-10-04 23:23:30.474 [warning] Chat session contribution with id 'claude-code' is already registered.
+2025-10-04 23:23:32.372 [info] Started local extension host with pid 3694.
+2025-10-04 23:23:36.028 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+	at t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+	at Module._load (node:internal/modules/cjs/loader:1182:37)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+	at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+	at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+	at Module.require (node:internal/modules/cjs/loader:1452:12)
+	at require (node:internal/modules/helpers:135:16)
+	at 7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at 5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+	at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+	at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+	at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+	at Module._compile (node:internal/modules/cjs/loader:1696:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+	at Module.load (node:internal/modules/cjs/loader:1430:32)
+	at Module._load (node:internal/modules/cjs/loader:1253:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+	at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+	at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+	at Module.require (node:internal/modules/cjs/loader:1452:12)
+	at require (node:internal/modules/helpers:135:16)
+	at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-04 23:23:39.826 [error] [Extension Host] (node:3694) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-04 23:23:46.174 [info] Extension host (LocalProcess pid: 3694) is unresponsive.
+2025-10-04 23:23:48.253 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-04 23:23:50.704 [info] Extension host (LocalProcess pid: 3694) is responsive.
+2025-10-04 23:23:50.723 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-04 23:23:51.304 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-04 23:23:53.159 [warning] UNRESPONSIVE extension host: 'github.copilot' took 72.86457286219577% of 1808.514ms, saved PROFILE here: 'file:///tmp/exthost-6c0d8b.cpuprofile'
+2025-10-04 23:27:20.622 [error] [Extension Host] (node:3694) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2025-10-04 23:30:36.874 [error] [Extension Host] Canceled: Canceled
+    at new mpn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:35768)
+    at ALt.U (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:40420)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37905)
+    at wti.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:65046)
+    at gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:26157)
+    at yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69300)
+    at yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71173)
+    at ALt.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:40383)
+    at ALt.Q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:40161)
+    at ALt.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:39249)
+2025-10-04 23:30:39.952 [error] [Extension Host] Canceled: Canceled
+    at new mpn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:35768)
+    at ALt.U (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:40420)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37905)
+    at wti.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:65046)
+    at gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:26157)
+    at yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69300)
+    at yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71173)
+    at ALt.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:40383)
+    at ALt.Q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:40161)
+    at ALt.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:39249)
+2025-10-04 23:38:59.201 [error] [chat setup] signIn: error Canceled: Canceled
+2025-10-04 23:39:03.723 [error] [chat setup] signIn: error Canceled: Canceled
+2025-10-04 23:39:05.292 [error] [chat setup] signIn: error Canceled: Canceled
+2025-10-04 23:39:06.373 [error] [chat setup] signIn: error Canceled: Canceled
+2025-10-04 23:39:45.578 [error] [chat setup] signIn: error Canceled: Canceled
+2025-10-04 23:40:53.507 [error] [chat setup] signIn: error Canceled: Canceled
+2025-10-04 23:40:54.131 [error] [chat setup] signIn: error Canceled: Canceled
+2025-10-04 23:40:54.686 [error] [chat setup] signIn: error Canceled: Canceled
+2025-10-04 23:41:04.168 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/as4454508/experiment/experiment-2-abhay15032008/index.html 

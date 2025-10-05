@@ -1,0 +1,86 @@
+2025-10-05 15:50:31.156 [info] [certificates] Removed 5 expired certificates
+2025-10-05 16:09:57.987 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:09:57.993 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:09:57.993 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:09:57.993 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:10:03.028 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:10:08.042 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:10:13.111 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:10:13.111 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:10:18.133 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:10:18.133 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:10:18.133 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:11:13.979 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:11:13.979 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:11:19.138 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:11:24.346 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:11:24.347 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)
+2025-10-05 16:11:29.426 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async yti.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:69287)
+    at async yti.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71162)

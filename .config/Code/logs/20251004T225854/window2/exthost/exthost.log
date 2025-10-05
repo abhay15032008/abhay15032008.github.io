@@ -1,0 +1,129 @@
+2025-10-04 22:59:16.592 [info] Extension host with pid 461 started
+2025-10-04 22:59:16.592 [info] Skipping acquiring lock for /home/as4454508/.config/Code/User/workspaceStorage/ca4ff84e4d155cae2687d9c9e0818889.
+2025-10-04 22:59:21.467 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-04 22:59:21.848 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-04 22:59:22.082 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-10-04 22:59:34.948 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-10-04 22:59:35.939 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-04 22:59:35.960 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2025-10-04 22:59:38.766 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 22:59:38.800 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 22:59:39.262 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 22:59:41.014 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 23:00:07.348 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 23:00:08.072 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-04 23:00:08.803 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-04 23:00:09.383 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-04 23:00:10.403 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-04 23:00:10.857 [info] Eager extensions activated
+2025-10-04 23:00:11.346 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at gbl (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6611)
+    at getInst (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/dist/https:/raw.githubusercontent.com/nevware21/ts-utils/refs/tags/0.11.8/lib/src/helpers/environment.ts:130:16)
+    at safe (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/dist/https:/raw.githubusercontent.com/nevware21/ts-utils/refs/tags/0.11.8/lib/src/helpers/safe.ts:64:21)
+    at getNavigator (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/dist/https:/raw.githubusercontent.com/nevware21/ts-utils/refs/tags/0.11.8/lib/src/helpers/environment.ts:35:45)
+    at createOfflineListener (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/shared/AppInsightsCommon/dist-es5/Offline.js:11:1)
+    at w.st.<computed> [as initialize] (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/channels/applicationinsights-channel-js/dist-es5/Sender.js:170:1)
+    at w.dynProtoProxy [as initialize] (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/dist/https:/raw.githubusercontent.com/microsoft/dynamicproto-js/refs/tags/2.0.3/lib/src/DynamicProto.ts:418:29)
+    at Array.<anonymous> (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/shared/AppInsightsCore/dist-es5/JavaScriptSDK/TelemetryHelpers.js:48:1)
+    at arrForEach (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/dist/https:/raw.githubusercontent.com/nevware21/ts-utils/refs/tags/0.11.8/lib/src/array/forEach.ts:58:36)
+    at initializePlugins (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/shared/AppInsightsCore/dist-es5/JavaScriptSDK/TelemetryHelpers.js:46:1)
+    at _initPluginChain (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/shared/AppInsightsCore/dist-es5/JavaScriptSDK/AppInsightsCore.js:861:1)
+    at b.Ct.<computed> [as initialize] (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/shared/AppInsightsCore/dist-es5/JavaScriptSDK/AppInsightsCore.js:379:1)
+    at b.dynProtoProxy [as initialize] (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/dist/https:/raw.githubusercontent.com/microsoft/dynamicproto-js/refs/tags/2.0.3/lib/src/DynamicProto.ts:418:29)
+    at _initialize (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/dist-es5/index.js:106:1)
+    at delegateFunc (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/dist-es5/index.js:45:1)
+    at dynamicProto (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/dist/https:/raw.githubusercontent.com/microsoft/dynamicproto-js/refs/tags/2.0.3/lib/src/DynamicProto.ts:621:5)
+    at new ApplicationInsights (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.6/dist-es5/index.js:40:1)
+    at new AppInsightsReporter (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/lib/src/telemetry/appInsightsReporter.ts:30:23)
+    at IA.initialize (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/lib/src/telemetry/initialization.ts:63:35)
+    at setupTelemetry (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/extension/src/telemetry.ts:52:19)
+    at createExtensionContext (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/extension/src/extension.ts:312:5)
+    at activate (/home/as4454508/.vscode/extensions/github.copilot-1.372.0/extension/src/extension.ts:139:17)
+    at _b.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+    at _b.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+    at _b.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2025-10-04 23:00:12.835 [info] Extension host with pid 957 started
+2025-10-04 23:00:12.835 [info] Skipping acquiring lock for /home/as4454508/.config/Code/User/workspaceStorage/da29c31da46832dafdb9aec722117718.
+2025-10-04 23:00:13.148 [error] Canceled (FileSystemError): Canceled
+    at ms.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+    at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16395)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:2284
+    at Ny.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1836)
+2025-10-04 23:00:13.149 [error] Canceled (FileSystemError): Canceled
+    at ms.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+    at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16395)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:2284
+    at Ny.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1836)
+2025-10-04 23:00:13.149 [error] Canceled (FileSystemError): Canceled
+    at ms.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+    at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16395)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:2284
+    at Ny.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1836)
+2025-10-04 23:00:13.150 [error] Canceled (FileSystemError): Canceled
+    at ms.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+    at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16395)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Ny.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1494)
+2025-10-04 23:00:13.152 [error] Canceled (FileSystemError): Canceled
+    at ms.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+    at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16395)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Ny.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1494)
+2025-10-04 23:00:13.153 [error] Canceled (FileSystemError): Canceled
+    at ms.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+    at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16395)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Ny.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1494)
+2025-10-04 23:00:13.153 [error] Canceled (FileSystemError): Canceled
+    at ms.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+    at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16395)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Ny.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1494)
+2025-10-04 23:00:13.198 [error] Error: Stopping the server timed out
+    at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:57114
+    at Object.dispose (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:371305)
+    at Object.dispose (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:366796)
+    at Object.t.deactivate (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:16492)
+    at async Promise.all (index 4)
+    at aJ.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10000)
+2025-10-04 23:00:13.199 [info] Extension host with pid 461 exiting with code 0
+2025-10-04 23:00:14.792 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-04 23:00:15.195 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-04 23:00:15.477 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-10-04 23:00:22.289 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-04 23:00:22.344 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2025-10-04 23:00:22.386 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-10-04 23:00:26.055 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 23:00:26.094 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 23:00:26.379 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 23:00:27.171 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 23:00:36.639 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 23:00:36.673 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-04 23:00:36.917 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-04 23:00:37.240 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-10-04 23:00:40.506 [info] Eager extensions activated
+2025-10-04 23:00:52.233 [error] Error: GitHubLoginFailed
+    at y9._authShowWarnings (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:16822)
+    at y9.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:25260)
+    at sE._fetchModels (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:2934:3968)
+    at sE.getAllChatModels (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:2934:2014)
+    at Bj.getAllChatEndpoints (/home/as4454508/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:2934:14863)
+2025-10-04 23:00:54.975 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1111
+2025-10-04 23:00:57.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1111
+2025-10-04 23:01:01.272 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1111
+2025-10-04 23:01:07.457 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1111
+2025-10-04 23:01:14.200 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-04 23:01:14.352 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-04 23:01:15.077 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-04 23:01:16.154 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1114
+2025-10-04 23:01:42.575 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1114
+2025-10-04 23:01:48.702 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1114
+2025-10-04 23:01:55.357 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1115
+2025-10-04 23:02:01.669 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1115
+2025-10-04 23:02:10.014 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1115
+2025-10-04 23:41:18.469 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-04 23:41:19.086 [info] Extension host with pid 957 exiting with code 0

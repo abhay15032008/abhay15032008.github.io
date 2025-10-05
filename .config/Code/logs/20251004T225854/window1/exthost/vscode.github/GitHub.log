@@ -1,0 +1,5 @@
+2025-10-04 23:00:23.328 [info] Log level: Info
+2025-10-04 23:00:27.021 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-10-04 23:23:52.352 [info] Log level: Info
+2025-10-04 23:23:56.156 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Canceled
+2025-10-04 23:31:54.193 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for ABES-Engineering-college1/experiment-2-abhay15032008: Error: Canceled

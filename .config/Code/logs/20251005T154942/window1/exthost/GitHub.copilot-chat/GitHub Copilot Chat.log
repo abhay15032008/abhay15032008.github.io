@@ -1,0 +1,35 @@
+2025-10-05 15:50:04.409 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-05 15:50:04.409 [info] Using the Electron fetcher.
+2025-10-05 15:50:06.499 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-05 15:50:06.499 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-05 15:50:06.499 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-05 15:50:30.132 [error] Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async gKe.getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25372)
+    at async yti.$getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71315): Failed to get copilot token
+2025-10-05 15:50:30.133 [error] GitHub Copilot could not connect to server. Extension activation failed: "Timed out waiting for authentication provider 'github' to register."
+2025-10-05 15:50:30.133 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-10-05 15:50:30.133 [error] Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async gKe.getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25372)
+    at async yti.$getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71315)
+2025-10-05 15:50:30.133 [info] activationBlocker from 'languageModelAccess' took for 8451ms
+2025-10-05 15:50:33.599 [error] Error getting a session: Error: Timed out waiting for authentication provider 'github' to register.
+2025-10-05 15:50:33.605 [error] Error getting a session: Error: Timed out waiting for authentication provider 'github' to register.
+2025-10-05 15:50:35.229 [info] copilot token chat_enabled: undefined, sku: 
+2025-10-05 15:50:35.230 [info] activationBlocker from 'conversationFeature' took for 13623ms
+2025-10-05 15:50:40.243 [error] GitHub Copilot could not connect to server. Extension activation failed: "Timed out waiting for authentication provider 'github' to register."
+2025-10-05 15:50:40.243 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-10-05 15:50:40.243 [error] Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async gKe.getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25372)
+    at async yti.$getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71315)
+2025-10-05 15:50:40.243 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-10-05 15:50:40.243 [error] Error: Timed out waiting for authentication provider 'github' to register.
+    at gKe.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:28494)
+    at async gKe.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25615)
+    at async gKe.getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1138:25372)
+    at async yti.$getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:586:71315)

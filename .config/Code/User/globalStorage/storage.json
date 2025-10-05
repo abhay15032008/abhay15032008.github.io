@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/as4454508/Abhay/web%20design/HTML-CSE11"
+                "folderUri": "file:///home/as4454508/experiment"
             }
         ],
         "emptyWindows": []
@@ -17,7 +17,12 @@
             "file:///home/as4454508/HTML-CSE11": "__default__profile__",
             "file:///home/as4454508/CSE11": "__default__profile__",
             "file:///home/as4454508/Abhay/web%20design/HTML-CSE11/Web%20-Assignment%20%281%29": "__default__profile__",
-            "file:///home/as4454508/Abhay/web%20design/HTML-CSE11": "__default__profile__"
+            "file:///home/as4454508/Abhay/web%20design/HTML-CSE11": "__default__profile__",
+            "file:///home/as4454508/Abhay/CSE_11": "__default__profile__",
+            "file:///home/as4454508/Abhay/web%20design": "__default__profile__",
+            "file:///home/as4454508/experiment/experiment-2-abhay15032008": "__default__profile__",
+            "file:///home/as4454508/experiment1/experiment1-abhay15032008": "__default__profile__",
+            "file:///home/as4454508/experiment": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -46,15 +51,15 @@
             "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 300,
-            "auxiliaryBarWidth": 0,
+            "auxiliaryBarWidth": 300,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/as4454508/Abhay/web%20design/HTML-CSE11",
-            "backupPath": "/home/as4454508/.config/Code/Backups/3867cc7b6c16b98c5fe6cf4df8d08674",
+            "folder": "file:///home/as4454508/experiment",
+            "backupPath": "/home/as4454508/.config/Code/Backups/e98a5d642c38bab6c4622ac41c52e32e",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -85,6 +90,26 @@
                 "2cba18ef555626214f380f2f9d0ec597": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
+                },
+                "c9b5f1c25d5f6af14afc2799bbb8177a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "637496f316619d5204c6848ad6648ae8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "8b74aae56cf4ad903606051dc3502370": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "ca4ff84e4d155cae2687d9c9e0818889": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "da29c31da46832dafdb9aec722117718": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
                 }
             }
         }

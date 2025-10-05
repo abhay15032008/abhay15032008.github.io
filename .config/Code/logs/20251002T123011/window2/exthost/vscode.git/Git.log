@@ -1,0 +1,38 @@
+2025-10-02 12:53:36.520 [info] [main] Log level: Info
+2025-10-02 12:53:36.520 [info] [main] Validating found git in: "git"
+2025-10-02 12:53:36.520 [info] [main] Using git "2.39.5" from "git"
+2025-10-02 12:53:36.520 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-02 12:53:36.520 [info] > git rev-parse --show-toplevel [374ms]
+2025-10-02 12:53:36.520 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8123ms]
+2025-10-02 12:53:36.520 [info] [Model][openRepository] Opened repository (path): /home/as4454508/experiment/experiment-2-abhay15032008
+2025-10-02 12:53:36.520 [info] [Model][openRepository] Opened repository (real path): /home/as4454508/experiment/experiment-2-abhay15032008
+2025-10-02 12:53:36.520 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-02 12:53:36.520 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-02 12:53:36.520 [info] > git config --get commit.template [743ms]
+2025-10-02 12:53:36.534 [info] > git check-ignore -v -z --stdin [64ms]
+2025-10-02 12:53:37.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1196ms]
+2025-10-02 12:53:40.192 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-02 12:53:40.556 [info] > git rev-parse refs/remotes/origin/main [365ms]
+2025-10-02 12:53:40.842 [info] > git status -z -uall [206ms]
+2025-10-02 12:53:40.843 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [145ms]
+2025-10-02 12:53:41.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [262ms]
+2025-10-02 12:53:41.404 [info] > git config --get --local branch.main.vscode-merge-base [17ms]
+2025-10-02 12:53:41.404 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-02 12:53:41.434 [info] > git config --get commit.template [130ms]
+2025-10-02 12:53:41.464 [info] > git reflog main --grep-reflog=branch: Created from *. [31ms]
+2025-10-02 12:53:41.517 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [26ms]
+2025-10-02 12:53:41.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
+2025-10-02 12:53:41.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+2025-10-02 12:53:41.603 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-02 12:53:41.604 [info] > git config --add --local branch.main.vscode-merge-base origin/main [24ms]
+2025-10-02 12:53:41.633 [info] > git rev-parse refs/remotes/origin/main [30ms]
+2025-10-02 12:53:41.650 [info] > git config --get commit.template [17ms]
+2025-10-02 12:53:41.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [211ms]
+2025-10-02 12:53:41.995 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-02 12:53:41.999 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-10-02 12:53:42.044 [info] > git status -z -uall [30ms]
+2025-10-02 12:53:42.044 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-10-02 12:53:42.107 [info] > git merge-base refs/heads/main refs/remotes/origin/main [28ms]
+2025-10-02 12:53:42.141 [info] > git diff --name-status -z --diff-filter=ADMR 486577dbd91c1ce3b35608a3c8a0f06bbb7a6335...refs/remotes/origin/main [8ms]
+2025-10-02 12:53:42.145 [info] > git merge-base refs/heads/main refs/remotes/origin/main [42ms]
+2025-10-02 12:53:42.185 [info] > git diff --name-status -z --diff-filter=ADMR 486577dbd91c1ce3b35608a3c8a0f06bbb7a6335...refs/remotes/origin/main [17ms]

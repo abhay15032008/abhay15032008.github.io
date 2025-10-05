@@ -1,4 +1,0 @@
-2025-09-29 12:04:55.471 [error] #1: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_CERT_AUTHORITY_INVALID
-2025-09-29 12:04:59.420 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_CERT_AUTHORITY_INVALID
-2025-09-29 12:05:07.364 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_CERT_AUTHORITY_INVALID
-2025-09-29 12:05:11.384 [error] #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_CERT_AUTHORITY_INVALID

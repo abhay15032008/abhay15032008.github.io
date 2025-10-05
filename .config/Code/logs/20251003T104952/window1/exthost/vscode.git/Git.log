@@ -1,0 +1,41 @@
+2025-10-03 10:51:15.563 [info] [main] Log level: Info
+2025-10-03 10:51:15.563 [info] [main] Validating found git in: "git"
+2025-10-03 10:51:15.563 [info] [main] Using git "2.39.5" from "git"
+2025-10-03 10:51:15.567 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-03 10:51:15.567 [info] > git rev-parse --show-toplevel [69ms]
+2025-10-03 10:51:15.567 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [158ms]
+2025-10-03 10:51:15.567 [info] [Model][openRepository] Opened repository (path): /home/as4454508/experiment/experiment-2-abhay15032008
+2025-10-03 10:51:15.567 [info] [Model][openRepository] Opened repository (real path): /home/as4454508/experiment/experiment-2-abhay15032008
+2025-10-03 10:51:15.567 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-03 10:51:15.567 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-03 10:51:15.842 [info] > git config --get commit.template [134ms]
+2025-10-03 10:51:15.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [69ms]
+2025-10-03 10:51:16.001 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-03 10:51:16.025 [info] > git rev-parse refs/remotes/origin/main [22ms]
+2025-10-03 10:51:16.204 [info] > git status -z -uall [115ms]
+2025-10-03 10:51:16.219 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-10-03 10:51:17.056 [info] > git check-ignore -v -z --stdin [396ms]
+2025-10-03 10:51:17.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [603ms]
+2025-10-03 10:51:18.575 [info] > git config --get commit.template [1749ms]
+2025-10-03 10:51:18.801 [info] > git config --get --local branch.main.vscode-merge-base [1601ms]
+2025-10-03 10:51:19.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [135ms]
+2025-10-03 10:51:21.239 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2031ms]
+2025-10-03 10:51:21.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2376ms]
+2025-10-03 10:51:21.815 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-03 10:51:21.821 [info] > git diff --name-status -z --diff-filter=ADMR 486577dbd91c1ce3b35608a3c8a0f06bbb7a6335...refs/remotes/origin/main [345ms]
+2025-10-03 10:51:21.982 [info] > git rev-parse refs/remotes/origin/main [173ms]
+2025-10-03 10:51:22.104 [info] > git status -z -uall [68ms]
+2025-10-03 10:51:22.126 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [40ms]
+2025-10-03 10:53:54.796 [info] > git check-ignore -v -z --stdin [24ms]
+2025-10-03 10:53:55.436 [info] > git config --get commit.template [16ms]
+2025-10-03 10:53:55.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2025-10-03 10:53:55.570 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/as4454508/experiment/experiment-2-abhay15032008/.git/refs/remotes/origin/main'
+2025-10-03 10:53:55.581 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2025-10-03 10:53:55.717 [info] > git status -z -uall [92ms]
+2025-10-03 10:53:55.730 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [38ms]
+2025-10-03 10:53:56.162 [info] > git show --textconv :index.html [191ms]
+2025-10-03 10:53:56.168 [info] > git ls-files --stage -- index.html [12ms]
+2025-10-03 10:53:56.273 [info] > git hash-object -t tree /dev/null [24ms]
+2025-10-03 10:53:56.283 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/as4454508/experiment/experiment-2-abhay15032008/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2Fexperiment%2Fexperiment-2-abhay15032008%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-10-03 10:53:56.287 [info] > git hash-object -t tree /dev/null [81ms]
+2025-10-03 10:53:56.287 [warning] [GitFileSystemProvider][stat] File not found - git:/home/as4454508/experiment/experiment-2-abhay15032008/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2Fexperiment%2Fexperiment-2-abhay15032008%2Findex.html%22%2C%22ref%22%3A%22%22%7D
