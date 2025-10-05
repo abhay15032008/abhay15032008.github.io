@@ -99,3 +99,110 @@ git pull origin main
 git add .
 git commit -m "Resolve merge conflicts"
 git push -u origin main
+git add ..
+git submodule add Web -Assignment CSE11/HTML-CSE11
+git commit -m
+clear
+git status
+git add <-web -Assignment->
+git add .
+Web -Assignment
+git add <- Web -assignment->
+git add <-Web -Assignment->
+git clone
+git
+clear
+git init
+git config --global user.name "abhay15032008"
+git config --global user.email "abhay.25b01011377@abes.ac.in"
+git config --list
+clear
+ls
+clear
+git status
+git add .
+git commit -m"classwork"
+git push
+git init
+git status
+git add .
+ls
+git commit -m
+git add .
+ls
+git commit -m "multimedia"
+git push
+git push -u
+git
+git --version
+ls
+cd HTML-CSE11/
+ls
+clear
+ls
+git status
+git add .
+git commit -m "multimedia"
+git push
+clear
+lssssssssssss
+ls
+cd HTML-CSE11/
+ls
+git status
+git clone https://github.com/abhay15032008/HTML-CSE11.git
+clear
+ls
+cd HTML-CSE11/
+ls
+git status
+git add .
+git commit -m "multimedia"
+git push
+git status
+git add .
+git status
+git commit -m "hello"
+git push
+clear
+git add .
+git commit -m "hi"
+git push
+git status
+git add .
+git commit -m "multimedia"
+git push
+git status
+git  add .
+git commit -m "special character"
+git push
+git status
+git commit -a "text formatting"
+git commit - m "text formatting"
+git add .
+git commit -m "text formatting"
+git push
+git version
+git add .
+git commit -m "text formatting "
+git push
+git add .
+git commit -m "semantic page"
+git push
+git status
+git commit -m "semantic page"
+git add .
+git commit "semantic page"
+git commit -m " semantic page"
+git push 
+git add .
+git commit -m "semantic page"
+git push
+git status
+git add .
+git commit -m "semantic page"
+git push
+git save
+git add .
+git commit -m"semantic page"
+git push

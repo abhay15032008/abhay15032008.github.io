@@ -1,0 +1,28 @@
+2025-09-28 23:37:01.753 [info] [main] Log level: Info
+2025-09-28 23:37:01.753 [info] [main] Validating found git in: "git"
+2025-09-28 23:37:01.753 [info] [main] Using git "2.39.5" from "git"
+2025-09-28 23:37:01.753 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-28 23:37:01.753 [info] > git rev-parse --show-toplevel [93ms]
+2025-09-28 23:37:01.753 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [123ms]
+2025-09-28 23:37:01.753 [info] [Model][openRepository] Opened repository (path): /home/as4454508/Abhay/web design/HTML-CSE11
+2025-09-28 23:37:01.753 [info] [Model][openRepository] Opened repository (real path): /home/as4454508/Abhay/web design/HTML-CSE11
+2025-09-28 23:37:01.753 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-28 23:37:01.753 [info] > git config --get commit.template [13ms]
+2025-09-28 23:37:01.753 [info] > git rev-parse --show-toplevel [6ms]
+2025-09-28 23:37:01.753 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-28 23:37:01.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-09-28 23:37:01.753 [info] > git status -z -uall [33ms]
+2025-09-28 23:37:01.753 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-09-28 23:37:01.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-09-28 23:37:01.753 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2025-09-28 23:37:01.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-09-28 23:37:01.753 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2025-09-28 23:37:01.754 [info] > git diff --name-status -z --diff-filter=ADMR 4d60aafb14400be95916825349acb578dd9c32c1...refs/remotes/origin/main [9ms]
+2025-09-28 23:37:01.754 [info] > git config --get commit.template [11ms]
+2025-09-28 23:37:01.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-09-28 23:37:01.790 [info] > git status -z -uall [22ms]
+2025-09-28 23:37:01.795 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-09-28 23:37:15.457 [info] > git check-ignore -v -z --stdin [509ms]
+2025-09-28 23:37:17.071 [info] > git show --textconv :My  Semantic web page.html  [1226ms]
+2025-09-28 23:37:17.072 [info] > git ls-files --stage -- My  Semantic web page.html  [1174ms]
+2025-09-28 23:37:17.187 [info] > git cat-file -s ab23087b77f66412e123f134836ee5aec2d80fcf [92ms]

@@ -6,24 +6,20 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/as4454508/HTML-CSE11"
+                "folderUri": "file:///home/as4454508/Abhay/web%20design/HTML-CSE11"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1758443105398"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
             "file:///home/as4454508/HTML-CSE11": "__default__profile__",
-            "file:///home/as4454508/CSE11": "__default__profile__"
+            "file:///home/as4454508/CSE11": "__default__profile__",
+            "file:///home/as4454508/Abhay/web%20design/HTML-CSE11/Web%20-Assignment%20%281%29": "__default__profile__",
+            "file:///home/as4454508/Abhay/web%20design/HTML-CSE11": "__default__profile__"
         },
-        "emptyWindows": {
-            "1758443105398": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
@@ -50,46 +46,24 @@
             "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 300,
-            "auxiliaryBarWidth": 300,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/as4454508/HTML-CSE11",
-            "backupPath": "/home/as4454508/.config/Code/Backups/7ab88d08ea518968235442e71d175405",
+            "folder": "file:///home/as4454508/Abhay/web%20design/HTML-CSE11",
+            "backupPath": "/home/as4454508/.config/Code/Backups/3867cc7b6c16b98c5fe6cf4df8d08674",
             "uiState": {
-                "mode": 0,
+                "mode": 1,
                 "x": 0,
                 "y": 24,
                 "width": 1536,
                 "height": 816
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/as4454508/HTML-CSE11",
-                "backupPath": "/home/as4454508/.config/Code/Backups/7ab88d08ea518968235442e71d175405",
-                "uiState": {
-                    "mode": 0,
-                    "x": 0,
-                    "y": 24,
-                    "width": 1536,
-                    "height": 816
-                }
-            },
-            {
-                "backupPath": "/home/as4454508/.config/Code/Backups/1758443105398",
-                "uiState": {
-                    "mode": 1,
-                    "x": 168,
-                    "y": 32,
-                    "width": 1200,
-                    "height": 800
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
@@ -103,6 +77,14 @@
                 "2f0c70baf98828494aab94ce42c90a2f": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": true
+                },
+                "d27c966f8c0d1aeffdee0557b5134091": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "2cba18ef555626214f380f2f9d0ec597": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
                 }
             }
         }

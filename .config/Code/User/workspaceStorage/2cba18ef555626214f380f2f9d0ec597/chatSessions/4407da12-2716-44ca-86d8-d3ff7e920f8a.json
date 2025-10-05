@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "requesterUsername": "abhay15032008",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/232811687",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [],
+  "sessionId": "4407da12-2716-44ca-86d8-d3ff7e920f8a",
+  "creationDate": 1758711405538,
+  "isImported": false,
+  "lastMessageDate": 1758711405538
+}

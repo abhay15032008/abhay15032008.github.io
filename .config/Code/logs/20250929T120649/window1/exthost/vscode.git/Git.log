@@ -1,0 +1,83 @@
+2025-09-29 12:07:17.508 [info] [main] Log level: Info
+2025-09-29 12:07:17.508 [info] [main] Validating found git in: "git"
+2025-09-29 12:07:17.508 [info] [main] Using git "2.39.5" from "git"
+2025-09-29 12:07:17.508 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-29 12:07:17.508 [info] > git rev-parse --show-toplevel [778ms]
+2025-09-29 12:07:17.543 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [104ms]
+2025-09-29 12:07:17.795 [info] [Model][openRepository] Opened repository (path): /home/as4454508/Abhay/web design/HTML-CSE11
+2025-09-29 12:07:17.795 [info] [Model][openRepository] Opened repository (real path): /home/as4454508/Abhay/web design/HTML-CSE11
+2025-09-29 12:07:17.795 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-29 12:07:18.308 [info] > git rev-parse --show-toplevel [42ms]
+2025-09-29 12:07:18.349 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-29 12:07:18.410 [info] > git config --get commit.template [324ms]
+2025-09-29 12:07:18.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [87ms]
+2025-09-29 12:07:18.975 [info] > git status -z -uall [120ms]
+2025-09-29 12:07:19.100 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [159ms]
+2025-09-29 12:07:19.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [239ms]
+2025-09-29 12:07:19.854 [info] > git config --get commit.template [75ms]
+2025-09-29 12:07:19.881 [info] > git config --get --local branch.main.vscode-merge-base [38ms]
+2025-09-29 12:07:19.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [100ms]
+2025-09-29 12:07:19.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [31ms]
+2025-09-29 12:07:20.057 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2025-09-29 12:07:20.254 [info] > git status -z -uall [51ms]
+2025-09-29 12:07:20.290 [info] > git diff --name-status -z --diff-filter=ADMR 4d60aafb14400be95916825349acb578dd9c32c1...refs/remotes/origin/main [138ms]
+2025-09-29 12:07:20.414 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [161ms]
+2025-09-29 12:07:55.641 [info] > git check-ignore -v -z --stdin [1435ms]
+2025-09-29 12:08:07.398 [info] > git show --textconv :My  Semantic web page.html  [9314ms]
+2025-09-29 12:08:07.398 [info] > git ls-files --stage -- My  Semantic web page.html  [9237ms]
+2025-09-29 12:08:08.537 [info] > git cat-file -s ab23087b77f66412e123f134836ee5aec2d80fcf [1046ms]
+2025-09-29 12:08:44.267 [info] > git check-ignore -v -z --stdin [26ms]
+2025-09-29 12:08:50.454 [info] > git blame --root --incremental 4d60aafb14400be95916825349acb578dd9c32c1 -- My  Semantic web page.html  [65ms]
+2025-09-29 12:10:24.059 [info] > git check-ignore -v -z --stdin [189ms]
+2025-09-29 12:10:24.073 [info] > git show --textconv :Semantic&NonSemantic.html  [17ms]
+2025-09-29 12:10:24.401 [info] > git hash-object -t tree /dev/null [101ms]
+2025-09-29 12:10:24.401 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/as4454508/Abhay/web%20design/HTML-CSE11/Semantic%26NonSemantic.html%20.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2FAbhay%2Fweb%20design%2FHTML-CSE11%2FSemantic%26NonSemantic.html%20%22%2C%22ref%22%3A%22%22%7D
+2025-09-29 12:10:24.450 [info] > git ls-files --stage -- Semantic&NonSemantic.html  [252ms]
+2025-09-29 12:10:24.454 [warning] [GitFileSystemProvider][stat] File not found - git:/home/as4454508/Abhay/web%20design/HTML-CSE11/Semantic%26NonSemantic.html%20.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2FAbhay%2Fweb%20design%2FHTML-CSE11%2FSemantic%26NonSemantic.html%20%22%2C%22ref%22%3A%22%22%7D
+2025-09-29 12:10:24.463 [info] > git config --get commit.template [70ms]
+2025-09-29 12:10:24.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-09-29 12:10:24.718 [info] > git status -z -uall [115ms]
+2025-09-29 12:10:24.729 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [65ms]
+2025-09-29 12:10:24.879 [info] > git blame --root --incremental 4d60aafb14400be95916825349acb578dd9c32c1 -- Semantic&NonSemantic.html  [158ms]
+2025-09-29 12:10:24.879 [info] fatal: no such path Semantic&NonSemantic.html  in 4d60aafb14400be95916825349acb578dd9c32c1
+2025-09-29 12:10:44.236 [info] > git check-ignore -v -z --stdin [17ms]
+2025-09-29 12:10:44.494 [info] > git show --textconv :Web -Assignment (1)/SemanticNonSemantic.html [31ms]
+2025-09-29 12:10:44.496 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/as4454508/Abhay/web%20design/HTML-CSE11/Web%20-Assignment%20%281%29/SemanticNonSemantic.html.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2FAbhay%2Fweb%20design%2FHTML-CSE11%2FWeb%20-Assignment%20%281%29%2FSemanticNonSemantic.html%22%2C%22ref%22%3A%22%22%7D
+2025-09-29 12:10:44.511 [info] > git ls-files --stage -- Web -Assignment (1)/SemanticNonSemantic.html [23ms]
+2025-09-29 12:10:44.512 [warning] [GitFileSystemProvider][stat] File not found - git:/home/as4454508/Abhay/web%20design/HTML-CSE11/Web%20-Assignment%20%281%29/SemanticNonSemantic.html.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2FAbhay%2Fweb%20design%2FHTML-CSE11%2FWeb%20-Assignment%20%281%29%2FSemanticNonSemantic.html%22%2C%22ref%22%3A%22%22%7D
+2025-09-29 12:10:44.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-09-29 12:10:44.809 [info] > git config --get commit.template [46ms]
+2025-09-29 12:10:44.962 [info] > git status -z -uall [70ms]
+2025-09-29 12:10:44.971 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-09-29 12:11:12.760 [info] > git show --textconv :text formatting examples.html [58ms]
+2025-09-29 12:11:12.762 [info] > git ls-files --stage -- text formatting examples.html [12ms]
+2025-09-29 12:11:12.847 [info] > git cat-file -s 10da0afe7452de343ae6a47331f4534eb6c7d335 [18ms]
+2025-09-29 12:11:13.081 [info] > git blame --root --incremental 4d60aafb14400be95916825349acb578dd9c32c1 -- text formatting examples.html [16ms]
+2025-09-29 12:11:32.164 [info] > git config --get commit.template [16ms]
+2025-09-29 12:11:32.227 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-29 12:11:32.332 [info] > git status -z -uall [54ms]
+2025-09-29 12:11:32.342 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [17ms]
+2025-09-29 12:13:53.866 [info] > git config --get commit.template [7ms]
+2025-09-29 12:13:53.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-29 12:13:53.934 [info] > git status -z -uall [26ms]
+2025-09-29 12:13:53.945 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-09-29 12:16:47.616 [info] > git config --get commit.template [44ms]
+2025-09-29 12:16:47.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-29 12:16:47.730 [info] > git status -z -uall [69ms]
+2025-09-29 12:16:47.736 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2025-09-29 12:16:48.143 [info] > git show --textconv :Web -Assignment (1)/SemanticNonSemantic.html [62ms]
+2025-09-29 12:16:48.144 [info] > git show --textconv HEAD:Web -Assignment (1)/SemanticNonSemantic.html [46ms]
+2025-09-29 12:16:48.144 [info] > git ls-files --stage -- Web -Assignment (1)/SemanticNonSemantic.html [28ms]
+2025-09-29 12:16:48.161 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/as4454508/Abhay/web%20design/HTML-CSE11/Web%20-Assignment%20%281%29/SemanticNonSemantic.html.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2FAbhay%2Fweb%20design%2FHTML-CSE11%2FWeb%20-Assignment%20%281%29%2FSemanticNonSemantic.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-09-29 12:16:48.170 [info] > git cat-file -s dd35d69b6c464ec88acb47f3d6a521f611b4fb35 [12ms]
+2025-09-29 12:16:48.172 [info] > git ls-tree -l HEAD -- Web -Assignment (1)/SemanticNonSemantic.html [34ms]
+2025-09-29 12:16:48.174 [warning] [GitFileSystemProvider][stat] File not found - git:/home/as4454508/Abhay/web%20design/HTML-CSE11/Web%20-Assignment%20%281%29/SemanticNonSemantic.html.git?%7B%22path%22%3A%22%2Fhome%2Fas4454508%2FAbhay%2Fweb%20design%2FHTML-CSE11%2FWeb%20-Assignment%20%281%29%2FSemanticNonSemantic.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-09-29 12:16:48.303 [info] > git blame --root --incremental 4d60aafb14400be95916825349acb578dd9c32c1 -- Web -Assignment (1)/SemanticNonSemantic.html [16ms]
+2025-09-29 12:16:48.303 [info] fatal: no such path Web -Assignment (1)/SemanticNonSemantic.html in 4d60aafb14400be95916825349acb578dd9c32c1
+2025-09-29 12:16:48.550 [info] > git config --get commit.template [9ms]
+2025-09-29 12:16:48.606 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-09-29 12:16:48.729 [info] > git status -z -uall [45ms]
+2025-09-29 12:16:48.729 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-09-29 12:16:48.753 [info] > git ls-files --stage -- Web -Assignment (1)/SemanticNonSemantic.html [89ms]
+2025-09-29 12:16:48.813 [info] > git cat-file -s dd35d69b6c464ec88acb47f3d6a521f611b4fb35 [13ms]
+2025-09-29 12:16:48.880 [info] > git show --textconv :Web -Assignment (1)/SemanticNonSemantic.html [7ms]

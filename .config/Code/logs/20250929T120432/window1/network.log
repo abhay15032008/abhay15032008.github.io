@@ -1,0 +1,5 @@
+2025-09-29 12:05:10.998 [error] #1: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/esbenp/prettier-vscode/latest - error GET Failed to fetch
+2025-09-29 12:05:11.071 [error] #2: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/formulahendry/auto-close-tag/latest - error GET Failed to fetch
+2025-09-29 12:05:11.129 [error] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot/latest - error GET Failed to fetch
+2025-09-29 12:05:11.130 [error] #4: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/latest - error GET Failed to fetch
+2025-09-29 12:05:11.133 [error] #5: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ritwickdey/liveserver/latest - error GET Failed to fetch
