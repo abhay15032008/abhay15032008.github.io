@@ -1,0 +1,50 @@
+html , body{
+    height:100%;
+    width:100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.left img{
+    width:70px;
+    height:60px;
+}
+.container{
+    padding: 0 10px;
+   
+    margin:auto;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.box{
+    direction: right;
+}
+.Right{
+    align-items: center;
+}
+.top-icons{
+    justify-content: space-between;
+    gap:30px;
+    align-items: center;
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+.icon-box i {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.icon-box span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
