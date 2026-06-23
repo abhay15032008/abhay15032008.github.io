@@ -106,7 +106,6 @@ const products = [
     "Tshirt",
     "Saree"
 ];
-
  searchBar = document.querySelector(".desktop-searchBar");
 let suggestions = document.getElementById("suggestions");
 
